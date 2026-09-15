@@ -1,0 +1,77 @@
+[
+  {
+    "id": "moe-oecd-education",
+    "title": "숫자로 보는 한국교육 - OECD 교육지표 2025",
+    "publisher": "교육부",
+    "source_url": "https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=104507&lev=0&opType=N",
+    "preview_urls": [
+      "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308001.jpg",
+      "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308511.jpg",
+      "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494309021.jpg"
+    ],
+    "structure_tags": [
+      "result-summary"
+    ],
+    "design_tags": [
+      "illustrated-statistics"
+    ],
+    "observation": "캐릭터, 큰 숫자와 비교 그래프, 말풍선 설명",
+    "review_basis": "Human-visible official cover and body images inspected",
+    "rights": {
+      "status": "unreviewed",
+      "redistribute_images": false,
+      "model_reference_allowed": false
+    },
+    "observed_at": "2026-09-15T09:20:42.709587+00:00"
+  },
+  {
+    "id": "moe-danchoo-plus",
+    "title": "인공지능 단추 플러스로 똑똑하게 공부해요!",
+    "publisher": "교육부",
+    "source_url": "https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=102892&lev=0&opType=N",
+    "preview_urls": [
+      "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491770.jpeg",
+      "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491831.jpeg",
+      "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491872.jpeg"
+    ],
+    "structure_tags": [
+      "service-guide"
+    ],
+    "design_tags": [
+      "friendly-service-3d"
+    ],
+    "observation": "밝은 배경, 굵은 제목, 입체 아이콘과 항목별 정보",
+    "review_basis": "Human-visible official cover and body images inspected",
+    "rights": {
+      "status": "unreviewed",
+      "redistribute_images": false,
+      "model_reference_allowed": false
+    },
+    "observed_at": "2026-09-15T09:20:42.709597+00:00"
+  },
+  {
+    "id": "mss-innovation-challenge",
+    "title": "공공기관의 과제에 혁신 기술을 더해주세요",
+    "publisher": "중소벤처기업부",
+    "source_url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148971894",
+    "preview_urls": [
+      "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/8924a5b065b896db2aa85caa6c57a1de.jpg",
+      "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/c3c7117e04565f933f6a9437fc3048b0.jpg",
+      "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/0a1879d6fe23148de0cf1144d2b465ae.jpg"
+    ],
+    "structure_tags": [
+      "participation"
+    ],
+    "design_tags": [
+      "public-blue-3d"
+    ],
+    "observation": "흰 배경, 남색 제목, 파란 입체 오브젝트, 중앙 핵심 메시지",
+    "review_basis": "Human-visible official cover and body images inspected",
+    "rights": {
+      "status": "unreviewed",
+      "redistribute_images": false,
+      "model_reference_allowed": false
+    },
+    "observed_at": "2026-09-15T09:20:42.709599+00:00"
+  }
+]

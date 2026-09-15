@@ -1,0 +1,13 @@
+# Private inputs and generated runs
+runs/
+outputs/
+.local/
+.env
+.env.*
+!.env.example
+auth.json
+*token*.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
