@@ -13,7 +13,29 @@
 
 **Public Cardnews**는 정책 안내, 사업 소개, 조사 결과, 참여 모집을 위한 카드뉴스 제작 프로젝트입니다. 실제 정부 카드뉴스를 보고 디자인을 선택하면, 사용자의 기획안에 맞는 **장별 GPT 이미지 프롬프트와 완성 이미지**를 함께 제공하는 것을 목표로 합니다.
 
-> **현재는 제작 절차 v0.3입니다.** 별도 로컬 환경에서 Codex 실행기로 4장 순차 생성·육안 검수·원본과 프롬프트 전달을 확인하고, 재사용 가능한 기획·타이포·검수 지침을 공개했습니다. 실행기·인증·내부 제작물은 포함하지 않습니다. 자동 설치형 배포는 아직 제공하지 않습니다. 아래 이미지는 **정부기관의 디자인 참고 사례**입니다.
+> **현재는 제작 절차 v0.4입니다.** 별도 로컬 환경에서 Codex 실행기로 4장 순차 생성·육안 검수·원본과 프롬프트 전달을 확인하고, 재사용 가능한 기획·타이포·검수 지침을 공개했습니다. 실행기·인증·비공개 내부 제작물은 포함하지 않습니다. 자동 설치형 배포는 아직 제공하지 않습니다. 아래에서는 **직접 생성한 공개 승인 샘플**과 **정부기관의 디자인 참고 사례**를 구분해 제공합니다.
+
+## 직접 생성한 디자인 샘플
+
+동일한 표지 원고를 여섯 가지 디자인으로 생성했습니다. 하단 주소를 제거한 공개 승인본이며 정부기관의 공식 홍보물이나 실제 직원 사진이 아닙니다.
+
+<p align="center">
+<img src="skills/public-cardnews/assets/cover-styles/images/01.png" alt="01 파란 입체형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/02.png" alt="02 메모지형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/03.png" alt="03 폴더형" width="32%" />
+</p>
+
+01 파란 입체형 · 02 메모지형 · 03 폴더형
+
+<p align="center">
+<img src="skills/public-cardnews/assets/cover-styles/images/04.png" alt="04 기술 도해형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/05.png" alt="05 평면 정책형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/06.png" alt="06 사진형" width="32%" />
+</p>
+
+04 기술 도해형 · 05 평면 정책형 · 06 사진형
+
+[6종 갤러리·장별 생성 및 편집 프롬프트](skills/public-cardnews/references/generated-samples.md)에서 원본과 참고 출처를 확인할 수 있습니다. 사진형의 배경 장식 문구는 생성된 텍스트이므로 실제 게시 전 검토가 필요합니다.
 
 ## 샘플 디자인
 
