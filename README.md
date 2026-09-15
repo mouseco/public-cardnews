@@ -4,7 +4,7 @@
 
 **v0.5.0-beta.1** — Windows 중심 베타. 번들 실행기와 가상 기관 예제를 제공합니다. 새 PC 검증은 아직 남아 있습니다. OpenAI 또는 정부기관의 공식 도구가 아닙니다.
 
-[설치부터 첫 이미지까지](docs/QUICKSTART.md) · [제작 샘플](skills/public-cardnews/references/generated-samples.md) · [외부 참고 사례](docs/GALLERY.md) · [사용 조건](docs/RIGHTS.md)
+[설치부터 첫 이미지까지](docs/QUICKSTART.md) · [제작 샘플](skills/public-cardnews/references/generated-samples.md) · [사용 조건](docs/RIGHTS.md)
 
 ## 빠른 시작
 
@@ -29,7 +29,7 @@ bun vendor/baoyu-codex-imagegen/src/main.ts --image runs/demo/01.png --prompt-fi
 
 ## 제작 샘플
 
-**S01–S06는 직접 생성한 샘플입니다. E 항목은 외부 기관의 참고 사례입니다.** 서로 다른 목록이며 같은 계열 디자인이 있을 수 있습니다. 번호·경로·상태·출처의 정본은 [통합 목록](skills/public-cardnews/assets/catalog.json) 한 곳입니다.
+**S01–S06는 직접 생성한 샘플입니다.** 번호·경로·상태·출처의 정본은 [통합 목록](skills/public-cardnews/assets/catalog.json) 한 곳입니다.
 
 <p>
 <img src="skills/public-cardnews/assets/cover-styles/images/01.png" alt="S01 파란 입체형" width="32%" />
@@ -48,10 +48,6 @@ S01 파란 입체형 · S02 메모지형 · S03 폴더형
 S04 기술 도해형 · S05 평면 정책형 · S06 사진형 **(실험안)**
 
 [각 이미지의 생성·편집 프롬프트](skills/public-cardnews/references/generated-samples.md)를 함께 제공합니다. S06은 가상 인물 사진형이며 배경 원고 외 문구가 남아 있어 실험안으로 분리했습니다. 다른 샘플도 실제 게시 전 원고·기관명·날짜를 교체하고 확인하세요.
-
-## 외부 참고 사례
-
-[외부 참고 사례 E 목록](docs/GALLERY.md)은 공식 게시물 링크로 제공합니다. 이 프로젝트 생성물이나 MIT 라이선스 대상이 아닙니다. 권리 확인 전 원본을 재배포하거나 모델에 자동 입력하지 않습니다.
 
 ## 실제 배포 예제
 
@@ -92,6 +88,5 @@ bun test ./vendor/baoyu-codex-imagegen/src
 - 공개 승인 생성 PNG: [사용 조건](docs/RIGHTS.md), 권리 보유 범위 내 MIT 허용
 - 번들 실행기: Jim Liu의 baoyu-codex-imagegen, MIT, 고정 revision 및 변경 내역은 [고지문](THIRD_PARTY_NOTICES.md)
 - OpenAI Codex CLI: 사용자가 별도 설치하는 Apache-2.0 도구. 호스팅 이미지 모델은 이 저장소의 오픈소스 대상이 아닙니다.
-- 외부 참고 이미지: 각 권리자 조건 적용
 
 [개발 상태와 남은 검증](docs/ROADMAP.md) · [기획 기준](docs/PRD.md) · [분류 기준](docs/TAXONOMY.md)
