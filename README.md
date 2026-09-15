@@ -1,180 +1,97 @@
-<div align="center">
-
 # Public Cardnews
-### 실제 공공 카드뉴스에서 디자인을 고르고, 프롬프트와 이미지까지.
 
-정부·공공기관의 공개 카드뉴스를 분석해 만드는 **공공 카드뉴스 제작 스킬**
+**정책 카드뉴스를 기획하고, 디자인을 고른 뒤 프롬프트와 이미지까지 만드는 스킬.**
 
-[샘플 디자인](#샘플-디자인) · [사용자 흐름](#사용자-흐름) · [개발 현황](#개발-현황) · [스킬 초안](skills/public-cardnews/SKILL.md)
+**v0.5.0-beta.1** — Windows 중심 베타. 번들 실행기와 가상 기관 예제를 제공합니다. 새 PC 검증은 아직 남아 있습니다. OpenAI 또는 정부기관의 공식 도구가 아닙니다.
 
-</div>
+[설치부터 첫 이미지까지](docs/QUICKSTART.md) · [제작 샘플](skills/public-cardnews/references/generated-samples.md) · [외부 참고 사례](docs/GALLERY.md) · [사용 조건](docs/RIGHTS.md)
 
----
+## 빠른 시작
 
-**Public Cardnews**는 정책 안내, 사업 소개, 조사 결과, 참여 모집을 위한 카드뉴스 제작 프로젝트입니다. 실제 정부 카드뉴스를 보고 디자인을 선택하면, 사용자의 기획안에 맞는 **장별 GPT 이미지 프롬프트와 완성 이미지**를 함께 제공하는 것을 목표로 합니다.
-
-> **현재는 제작 절차 v0.4입니다.** 별도 로컬 환경에서 Codex 실행기로 4장 순차 생성·육안 검수·원본과 프롬프트 전달을 확인하고, 재사용 가능한 기획·타이포·검수 지침을 공개했습니다. 실행기·인증·비공개 내부 제작물은 포함하지 않습니다. 자동 설치형 배포는 아직 제공하지 않습니다. 아래에서는 **직접 생성한 공개 승인 샘플**과 **정부기관의 디자인 참고 사례**를 구분해 제공합니다.
-
-## 직접 생성한 디자인 샘플
-
-동일한 표지 원고를 여섯 가지 디자인으로 생성했습니다. 하단 주소를 제거한 공개 승인본이며 정부기관의 공식 홍보물이나 실제 직원 사진이 아닙니다.
-
-<p align="center">
-<img src="skills/public-cardnews/assets/cover-styles/images/01.png" alt="01 파란 입체형" width="32%" />
-<img src="skills/public-cardnews/assets/cover-styles/images/02.png" alt="02 메모지형" width="32%" />
-<img src="skills/public-cardnews/assets/cover-styles/images/03.png" alt="03 폴더형" width="32%" />
-</p>
-
-01 파란 입체형 · 02 메모지형 · 03 폴더형
-
-<p align="center">
-<img src="skills/public-cardnews/assets/cover-styles/images/04.png" alt="04 기술 도해형" width="32%" />
-<img src="skills/public-cardnews/assets/cover-styles/images/05.png" alt="05 평면 정책형" width="32%" />
-<img src="skills/public-cardnews/assets/cover-styles/images/06.png" alt="06 사진형" width="32%" />
-</p>
-
-04 기술 도해형 · 05 평면 정책형 · 06 사진형
-
-[6종 갤러리·장별 생성 및 편집 프롬프트](skills/public-cardnews/references/generated-samples.md)에서 원본과 참고 출처를 확인할 수 있습니다. 사진형의 배경 장식 문구는 생성된 텍스트이므로 실제 게시 전 검토가 필요합니다.
-
-## 샘플 디자인
-
-아래에서 **표지와 본문을 나란히** 비교할 수 있습니다. 이미지를 누르면 공식 게시물로 이동합니다. 각 유형명은 이 프로젝트가 분석을 위해 붙인 이름입니다.
-
-### 01 · 공공 블루 입체형
-
-흰 배경, 남색 굵은 제목, 파란 입체 아이콘으로 정보를 또렷하게 전달합니다.
-
-<p align="center">
-  <a href="https://www.korea.kr/multi/visualNewsView.do?newsId=148971894"><img src="https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/8924a5b065b896db2aa85caa6c57a1de.jpg" alt="공공기관의 과제에 혁신 기술을 더해주세요 — 표지" width="45%" /></a>
-  <a href="https://www.korea.kr/multi/visualNewsView.do?newsId=148971894"><img src="https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/c3c7117e04565f933f6a9437fc3048b0.jpg" alt="공공기관의 과제에 혁신 기술을 더해주세요 — 본문" width="45%" /></a>
-</p>
-
-- **잘 맞는 용도:** 정책·사업 소개, 기관 이용현황, 설문 참여 안내
-- **참고할 요소:** 표지의 큰 제목, 중앙 오브젝트, 본문의 정보 위계와 파란 강조색
-- **출처:** 중소벤처기업부 · [공공기관의 과제에 혁신 기술을 더해주세요](https://www.korea.kr/multi/visualNewsView.do?newsId=148971894)
-
-### 02 · 친근한 서비스 안내형
-
-밝은 배경과 입체 아이콘, 굵은 제목으로 새로운 서비스를 쉽게 소개합니다.
-
-<p align="center">
-  <a href="https://moe.go.kr/boardCnts/view.do?m=0202&amp;s=moe&amp;boardID=340&amp;boardSeq=102892&amp;lev=0&amp;opType=N"><img src="https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491770.jpeg" alt="인공지능 단추 플러스로 똑똑하게 공부해요! — 표지" width="45%" /></a>
-  <a href="https://moe.go.kr/boardCnts/view.do?m=0202&amp;s=moe&amp;boardID=340&amp;boardSeq=102892&amp;lev=0&amp;opType=N"><img src="https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491831.jpeg" alt="인공지능 단추 플러스로 똑똑하게 공부해요! — 본문" width="45%" /></a>
-</p>
-
-- **잘 맞는 용도:** AI·디지털 서비스 소개, 이용방법, 기능 안내
-- **참고할 요소:** 표지와 본문의 제목 위치 통일, 항목별 정보 구분, 짧은 설명과 그림의 균형
-- **출처:** 교육부 · [인공지능 단추 플러스로 똑똑하게 공부해요!](https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=102892&lev=0&opType=N)
-
-### 03 · 캐릭터 통계형
-
-큰 숫자와 비교 그래프에 캐릭터·말풍선을 더해 통계를 설명합니다.
-
-<p align="center">
-  <a href="https://moe.go.kr/boardCnts/view.do?m=0202&amp;s=moe&amp;boardID=340&amp;boardSeq=104507&amp;lev=0&amp;opType=N"><img src="https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308001.jpg" alt="숫자로 보는 한국교육 - OECD 교육지표 2025 — 표지" width="45%" /></a>
-  <a href="https://moe.go.kr/boardCnts/view.do?m=0202&amp;s=moe&amp;boardID=340&amp;boardSeq=104507&amp;lev=0&amp;opType=N"><img src="https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308511.jpg" alt="숫자로 보는 한국교육 - OECD 교육지표 2025 — 본문" width="45%" /></a>
-</p>
-
-- **잘 맞는 용도:** 설문 결과, 통계 발표, 전후 변화와 성과 공유
-- **참고할 요소:** 숫자와 단위의 강조, 비교 그래프, 결과의 의미를 풀어주는 설명
-- **출처:** 교육부 · [숫자로 보는 한국교육 - OECD 교육지표 2025](https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=104507&lev=0&opType=N)
-
-<details>
-<summary>샘플 이미지 이용 안내</summary>
-
-이미지는 공식 사이트의 원본 URL을 참조하여 디자인 분석용으로 표시합니다. 저장소에 원본 파일을 복제하지 않았으며, GitHub 이미지 프록시가 표시 과정에서 캐시할 수 있습니다. 외부 사이트 정책에 따라 미리보기가 보이지 않을 때는 이미지 아래의 공식 게시물 링크를 이용하세요.
-
-각 이미지의 권리는 해당 권리자에게 있습니다. 이 저장소의 MIT 라이선스는 정부 카드뉴스·로고·캐릭터·사진에 적용되지 않습니다. 미리보기 제공은 원본 이미지의 자유로운 재배포·변경·상업적 이용이나 AI 참조 입력 허용을 뜻하지 않습니다. 샘플별 이용조건을 확인하는 작업은 진행 예정이며, 요청 시 미리보기를 제거합니다.
-
-</details>
-
-## 사용자 흐름
-
-### 기획안이 있는 경우
-
-**기획안 확인 → 디자인 추천 → 사용자 선택 → 프롬프트 작성 → 순차 이미지 생성 → 검수·전달**
-
-이미 정한 문구·수치·장수를 우선합니다. 디자인을 이유로 핵심 내용을 임의로 바꾸지 않습니다.
-
-### 기획안이 없는 경우
-
-**목적·독자·자료 확인 → 내용 구조 추천 → 기획안 작성·승인 → 디자인 선택 → 생성·전달**
-
-정부 카드뉴스의 실제 내용 구조를 참고해 장별 구성을 제안합니다. 필요한 사실과 세부 내용은 사용자가 확인하며, 없는 수치·일정·정책 효과를 만들지 않습니다.
-
-### 요청 예시
-
-> 공공 카드뉴스 만들어줘. 사업 이용현황을 안내하고 설문 참여를 요청하려고 해. 기획안은 첨부한 문서대로 사용하고, 디자인 샘플부터 추천해줘.
-
-> 기획안은 아직 없어. 시민 대상 서비스 이용방법을 안내하려고 해. 제공한 자료로 카드별 구성을 먼저 제안해줘.
-
-디자인 후보는 설명만 나열하지 않고 **실제 샘플과 추천 이유**를 함께 제시합니다. 사용자가 선택한 다음에 생성합니다.
-
-## 내용과 디자인을 따로 고릅니다
-
-- **내용 구조:** 결과 요약형 · 서비스 안내형 · 참여 모집형 등. 무엇을 어떤 순서로 설명할지 정합니다.
-- **시각 디자인:** 공공 블루 입체형 · 친근한 서비스 안내형 · 캐릭터 통계형 등. 같은 내용을 어떤 모습으로 보여줄지 정합니다.
-
-예를 들어 ‘조사 결과 → 의미 → 설문 참여’라는 동일한 기획안도 공공 블루형 또는 캐릭터 통계형으로 제작할 수 있습니다. 현재 분류는 초기 샘플을 기반으로 한 초안이며, 사례를 추가하며 보완합니다.
-
-## 최종 제공물
-
-다음은 **제작 절차의 출력 구성**입니다. 연결 실행기는 별도로 준비해야 하며 저장소 단독 자동 생성은 지원하지 않습니다.
+Git·Node.js·Bun·본인 Codex 계정이 필요합니다. 검사에는 Python도 사용합니다.
 
 ```text
-run/
-├── brief.json         # 사용자 승인 기획안
-├── design.json        # 선택한 디자인과 출처
-├── prompts/
-│   ├── 01.md          # 표지 생성 프롬프트
-│   └── 02.md ...      # 장별 프롬프트
-├── images/
-│   ├── 01.png         # 생성 이미지 원본
-│   └── 02.png ...
-├── manifest.json      # 실행기·파일·모델 확인 상태
-└── review.md          # 검수 결과와 미확인 사항
+git clone https://github.com/mouseco/public-cardnews.git
+cd public-cardnews
+git checkout v0.5.0-beta.1
+npm install -g @openai/codex@0.154.0
+codex login
+codex login status
 ```
 
-첫 장부터 순차적으로 생성하고, 첫 결과를 다음 장의 스타일 참조로 사용합니다. 한글·숫자·단위·주석·참여 경로를 검수하며, 오류가 있는 장만 수정합니다. 이미지 원본의 화면비를 보존하고 **프롬프트도 함께 제공**합니다.
+**Windows에서는 먼저 [CODEX_BIN 설정과 작업 폴더 생성](docs/QUICKSTART.md)을 수행하세요.** 그다음 저장소 루트에서:
 
-## 이미지 생성 방식
+```text
+bun vendor/baoyu-codex-imagegen/src/main.ts --image runs/demo/01.png --prompt-file examples/first-run/prompts/01.md --aspect 4:5 --timeout 300000 --retries 0
+```
 
-- **Codex 내장 이미지 도구**를 사용하는 외부 실행기로 순차 생성하는 절차를 제공합니다.
-- 로컬 검증에 사용한 실행기는 [baoyu-codex-imagegen](https://github.com/JimLiu/baoyu-skills/tree/main/packages/baoyu-codex-imagegen)입니다. 실행기·인증은 이 저장소에 번들하지 않습니다.
-- 최종 카드 제작에 HTML 캡처를 사용하지 않습니다.
-- Codex 로그인 경로를 우선하며, 별도 API 키·과금 경로로 임의 전환하지 않습니다.
-- 이미지 모델은 실행 환경의 실제 지원 상태를 확인합니다. 특정 모델 버전을 고정 보장하지 않습니다.
+개인 image-prompt/codex-image 스킬은 별도 설치할 필요 없습니다. 공개 스킬과 번들 실행기만 사용합니다. 계정의 이미지 기능 지원·한도는 OpenAI 서비스 정책에 따릅니다.
 
-## 개발 현황
+## 제작 샘플
 
-**완료**
-- 공식 샘플 3건의 출처 기록과 초기 분류
-- 기획안 유무에 따른 사용자 흐름 정의
-- 기획·생성·검수 스킬과 출력 계약, 권리·공개 원칙 작성
-- 4장 구성, 동일 위계 글씨 크기·굵기, 의미 단위 줄바꿈 지침
-- 별도 로컬 환경의 실제 순차 생성·PNG 검수·전달 확인
+**S01–S06는 직접 생성한 샘플입니다. E 항목은 외부 기관의 참고 사례입니다.** 서로 다른 목록이며 같은 계열 디자인이 있을 수 있습니다. 번호·경로·상태·출처의 정본은 [통합 목록](skills/public-cardnews/assets/catalog.json) 한 곳입니다.
 
-**다음 단계**
-1. 정부부처 샘플 확장 및 이미지별 이용조건 검토
-2. 비민감 공개 예제로 제작 절차 재현
-3. Codex 실행기 연결의 자동화와 중단 후 재개
-4. 설치형 스킬 배포
+<p>
+<img src="skills/public-cardnews/assets/cover-styles/images/01.png" alt="S01 파란 입체형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/02.png" alt="S02 메모지형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/03.png" alt="S03 폴더형" width="32%" />
+</p>
 
-현재는 설치 명령을 제공하지 않습니다. [개발계획과 단계별 완료 기준](docs/ROADMAP.md)을 참고하세요.
+S01 파란 입체형 · S02 메모지형 · S03 폴더형
 
-## 프로젝트 문서
+<p>
+<img src="skills/public-cardnews/assets/cover-styles/images/04.png" alt="S04 기술 도해형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/05.png" alt="S05 평면 정책형" width="32%" />
+<img src="skills/public-cardnews/assets/cover-styles/images/06.png" alt="S06 사진형" width="32%" />
+</p>
 
-- [전체 샘플 출처·갤러리](docs/GALLERY.md)
-- [샘플 메타데이터](catalog/sources.json)
-- [내용 구조·디자인 분류 기준](docs/TAXONOMY.md)
-- [제품 요구사항·출력 계약](docs/PRD.md)
-- [공공 카드뉴스 스킬 초안](skills/public-cardnews/SKILL.md)
-- [개발계획](docs/ROADMAP.md)
-- [권리·공개 기준](docs/RIGHTS.md)
+S04 기술 도해형 · S05 평면 정책형 · S06 사진형 **(실험안)**
 
-## 개인정보·저작권
+[각 이미지의 생성·편집 프롬프트](skills/public-cardnews/references/generated-samples.md)를 함께 제공합니다. S06은 가상 인물 사진형이며 배경 원고 외 문구가 남아 있어 실험안으로 분리했습니다. 다른 샘플도 실제 게시 전 원고·기관명·날짜를 교체하고 확인하세요.
 
-기관 내부 문서, 인증정보, 사용자의 원고와 생성물은 공개 저장소에 포함하지 않습니다. 정부기관의 공식 서비스나 인증 도구를 표방하지 않습니다.
+## 외부 참고 사례
 
-자체 작성한 코드·문서·프롬프트 틀은 [MIT](LICENSE)로 제공합니다. 참고 이미지와 외부 저작물은 각 권리자의 이용조건을 따릅니다.
+[외부 참고 사례 E 목록](docs/GALLERY.md)은 공식 게시물 링크로 제공합니다. 이 프로젝트 생성물이나 MIT 라이선스 대상이 아닙니다. 권리 확인 전 원본을 재배포하거나 모델에 자동 입력하지 않습니다.
+
+## 실제 배포 예제
+
+가상 기관 **새봄연구소**의 S02 메모지형 2장입니다.
+
+<p><img src="examples/first-run/result/01.png" alt="예제 표지" width="45%" /><img src="examples/first-run/result/02.png" alt="예제 본문" width="45%" /></p>
+
+[원고 프롬프트](examples/first-run/prompts/01.md) · [검수 기록](examples/first-run/result/review.md) · [PNG·프롬프트·검수 ZIP](examples/first-run/demo.zip)
+
+기존 Windows PC의 새 소스·출력 폴더에서 생성했습니다. 기존 계정 로그인을 사용했으며 새 PC·빈 사용자 홈 검증으로 간주하지 않습니다. Codex 0.154.0, Bun 1.3.10에서 실행했습니다. 실제 이미지 모델 버전은 미확인입니다.
+
+## 작업 흐름
+
+기획안이 있으면 문구·수치·장수를 보존합니다. 없으면 목적·독자·근거·참여 경로를 확인하고 기획부터 제안합니다.
+
+**기획 승인 → 디자인 선택 → 장별 프롬프트 → 첫 장 생성·확인 → 후속 장 → 원고 대조·PNG 검사 → 전달**
+
+같은 위계 글자 크기, 의미 단위 줄바꿈, 숫자·단위 묶음은 프롬프트와 육안검수 기준입니다. 픽셀 단위 타이포 통일이나 한글·그래프 무오류를 자동 보장하지 않습니다. 오류는 해당 장을 재생성해 해결합니다.
+
+## 설치형 스킬
+
+[SKILL.md](skills/public-cardnews/SKILL.md)와 references·assets 폴더를 함께 Hermes 활성 프로필에 복사합니다. [상세 설치 안내](docs/QUICKSTART.md)를 따르고 실행기 저장소의 실제 위치를 에이전트에게 알려주세요. 다른 에이전트에서는 지침으로 읽고 CLI를 직접 호출할 수 있습니다.
+
+## 오프라인 검사
+
+```text
+python -m pip install -r requirements-dev.txt
+python -m unittest discover -s tests -v
+python scripts/validate.py
+bun test ./vendor/baoyu-codex-imagegen/src
+```
+
+검사는 스킬 문법·상대 파일 링크·목록과 자산 누락·PNG decode·흔한 민감 경로/토큰 패턴을 확인합니다. 외부 URL 생존, OCR, 법적 검토, 모든 비밀 탐지를 보장하지 않습니다. runs/와 개인 로그는 공개 검사·커밋에서 제외합니다.
+
+## 라이선스와 출처
+
+- 자체 코드·문서·프롬프트: [MIT](LICENSE)
+- 공개 승인 생성 PNG: [사용 조건](docs/RIGHTS.md), 권리 보유 범위 내 MIT 허용
+- 번들 실행기: Jim Liu의 baoyu-codex-imagegen, MIT, 고정 revision 및 변경 내역은 [고지문](THIRD_PARTY_NOTICES.md)
+- OpenAI Codex CLI: 사용자가 별도 설치하는 Apache-2.0 도구. 호스팅 이미지 모델은 이 저장소의 오픈소스 대상이 아닙니다.
+- 외부 참고 이미지: 각 권리자 조건 적용
+
+[개발 상태와 남은 검증](docs/ROADMAP.md) · [기획 기준](docs/PRD.md) · [분류 기준](docs/TAXONOMY.md)

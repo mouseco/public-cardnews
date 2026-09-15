@@ -1,0 +1,148 @@
+{
+  "version": "0.5.0-beta.1",
+  "items": [
+    {
+      "id": "S01",
+      "kind": "generated",
+      "name": "파란 입체형",
+      "status": "reference",
+      "note": "디자인 참고용; 재사용 시 원고 교체",
+      "source_id": "E03",
+      "image": "skills/public-cardnews/assets/cover-styles/images/01.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/01.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/01.md",
+      "sha256": "148acaa4a2e6d11cec5e1edc18f484fb4ca14c34dc5e167cacbf9746eec895b5"
+    },
+    {
+      "id": "S02",
+      "kind": "generated",
+      "name": "메모지형",
+      "status": "reference",
+      "note": "디자인 참고용; 재사용 시 원고 교체",
+      "source_id": "E04",
+      "image": "skills/public-cardnews/assets/cover-styles/images/02.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/02.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/02.md",
+      "sha256": "de4764e2c5d9384705418ccab8d7b97b19305f6d2cfea2a17369cb390980bf53"
+    },
+    {
+      "id": "S03",
+      "kind": "generated",
+      "name": "폴더형",
+      "status": "reference",
+      "note": "디자인 참고용; 재사용 시 원고 교체",
+      "source_id": "E05",
+      "image": "skills/public-cardnews/assets/cover-styles/images/03.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/03.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/03.md",
+      "sha256": "ad0fdb56b3b437506158b3ac7a6db2b94712f445e1a50a1989bdc05a25ce784f"
+    },
+    {
+      "id": "S04",
+      "kind": "generated",
+      "name": "기술 도해형",
+      "status": "reference",
+      "note": "디자인 참고용; 재사용 시 원고 교체",
+      "source_id": "E06",
+      "image": "skills/public-cardnews/assets/cover-styles/images/04.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/04.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/04.md",
+      "sha256": "0fb9ae6650e7ad7a4012f34350954b5cf8b88f57134df69c35132d1cf3289aa3"
+    },
+    {
+      "id": "S05",
+      "kind": "generated",
+      "name": "평면 정책형",
+      "status": "reference",
+      "note": "디자인 참고용; 재사용 시 원고 교체",
+      "source_id": "E07",
+      "image": "skills/public-cardnews/assets/cover-styles/images/05.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/05.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/05.md",
+      "sha256": "f31a63ee3d456ce56c87e9030776bff356aa40eaebcbb5cc96f9a39806ddaea3"
+    },
+    {
+      "id": "S06",
+      "kind": "generated",
+      "name": "사진형",
+      "status": "experimental",
+      "note": "가상 인물; 배경 원고 외 장식 문구가 남은 실험안",
+      "source_id": "E08",
+      "image": "skills/public-cardnews/assets/cover-styles/images/06.png",
+      "prompt": "skills/public-cardnews/assets/cover-styles/prompts/06.md",
+      "edit_prompt": "skills/public-cardnews/assets/cover-styles/edit-prompts/06.md",
+      "sha256": "a1c3cf6f721c9149ef115ee0a608aa0d826683e0441d0aae7adf6cd0e8db374a"
+    },
+    {
+      "id": "E01",
+      "kind": "external",
+      "name": "숫자로 보는 한국교육 - OECD 교육지표 2025",
+      "source_url": "https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=104507&lev=0&opType=N",
+      "preview_urls": [
+        "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308001.jpg",
+        "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494308511.jpg",
+        "https://moe.go.kr/upload/board/340/2025/11/BOARD_2025111704494309021.jpg"
+      ],
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E02",
+      "kind": "external",
+      "name": "인공지능 단추 플러스로 똑똑하게 공부해요!",
+      "source_url": "https://moe.go.kr/boardCnts/view.do?m=0202&s=moe&boardID=340&boardSeq=102892&lev=0&opType=N",
+      "preview_urls": [
+        "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491770.jpeg",
+        "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491831.jpeg",
+        "https://moe.go.kr/upload/board/340/2025/04/BOARD_202504080354491872.jpeg"
+      ],
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E03",
+      "kind": "external",
+      "name": "공공기관의 과제에 혁신 기술을 더해주세요",
+      "source_url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148971894",
+      "preview_urls": [
+        "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/8924a5b065b896db2aa85caa6c57a1de.jpg",
+        "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/c3c7117e04565f933f6a9437fc3048b0.jpg",
+        "https://www.korea.kr/newsWeb/resources/attaches/2026.09/15/0a1879d6fe23148de0cf1144d2b465ae.jpg"
+      ],
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E04",
+      "kind": "external",
+      "name": "메모지형 참고 사례",
+      "source_url": "https://pf.kakao.com/_UxmgDl/114517879",
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E05",
+      "kind": "external",
+      "name": "폴더형 참고 사례",
+      "source_url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148956615",
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E06",
+      "kind": "external",
+      "name": "기술 도해형 참고 사례",
+      "source_url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148936446",
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E07",
+      "kind": "external",
+      "name": "평면 정책형 참고 사례",
+      "source_url": "https://pf.kakao.com/_UxmgDl/114222605",
+      "rights": "unreviewed; link-only; no automatic model input"
+    },
+    {
+      "id": "E08",
+      "kind": "external",
+      "name": "사진형 참고 사례",
+      "source_url": "https://pf.kakao.com/_UxmgDl/114060107",
+      "rights": "unreviewed; link-only; no automatic model input"
+    }
+  ]
+}

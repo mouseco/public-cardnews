@@ -11,3 +11,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+.venv/
+.runtime/
+node_modules/
+*.jsonl

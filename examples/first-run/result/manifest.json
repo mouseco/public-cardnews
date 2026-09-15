@@ -1,0 +1,29 @@
+{
+  "environment": "Existing Windows host/account, fresh source and output directory; not a clean OS or new-PC test",
+  "codex": "0.154.0",
+  "bun": "1.3.10",
+  "selected_style": "S02",
+  "files": [
+    {
+      "file": "01.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "sha256": "2582dca02b2aca2d7b1e69e4d3080693d64a03049796b7f886012cd28f8c05a5",
+      "cached": false,
+      "status": "ok"
+    },
+    {
+      "file": "02.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "sha256": "fb9195553185fe33ea38711b6c0e957f95be9c8661e5a7aba2719f3ba90f8b59",
+      "cached": false,
+      "status": "ok"
+    }
+  ],
+  "model_version": "unverified"
+}
