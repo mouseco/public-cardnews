@@ -1,0 +1,56 @@
+{
+  "status": "draft",
+  "style": "텍스트 중심 손글씨 메모",
+  "requested_aspect": "4:5",
+  "count": 6,
+  "images": [
+    {
+      "file": "images/01.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1922416
+    },
+    {
+      "file": "images/02.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1904777
+    },
+    {
+      "file": "images/03.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1958369
+    },
+    {
+      "file": "images/04.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1986659
+    },
+    {
+      "file": "images/05.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1964764
+    },
+    {
+      "file": "images/06.png",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "bytes": 1945706
+    }
+  ]
+}

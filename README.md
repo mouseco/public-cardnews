@@ -29,7 +29,7 @@ bun vendor/baoyu-codex-imagegen/src/main.ts --image runs/demo/01.png --prompt-fi
 
 ## 제작 샘플
 
-**S01–S06는 직접 생성한 샘플입니다.** 번호·경로·상태·출처의 정본은 [통합 목록](skills/public-cardnews/assets/catalog.json) 한 곳입니다.
+**S01–S07은 직접 생성한 샘플입니다.** 번호·경로·상태·출처의 정본은 [통합 목록](skills/public-cardnews/assets/catalog.json) 한 곳입니다.
 
 <p>
 <img src="skills/public-cardnews/assets/cover-styles/images/01.png" alt="S01 파란 입체형" width="32%" />
@@ -48,6 +48,21 @@ S01 파란 입체형 · S02 메모지형 · S03 폴더형
 S04 기술 도해형 · S05 평면 정책형 · S06 사진형 **(실험안)**
 
 [각 이미지의 생성·편집 프롬프트](skills/public-cardnews/references/generated-samples.md)를 함께 제공합니다. S06은 가상 인물 사진형이며 배경 원고 외 문구가 남아 있어 실험안으로 분리했습니다. 다른 샘플도 실제 게시 전 원고·기관명·날짜를 교체하고 확인하세요.
+
+## S07 · 텍스트 중심 손글씨 메모형
+
+크림색 종이에 펜으로 핵심을 적어 건네는 느낌의 디자인입니다. 입체 그림·인포그래픽 대신 **읽기 쉬운 손글씨, 문단 여백, 녹색 밑줄과 연노랑 형광펜**을 사용합니다. 기존 S02 메모지형과 별도의 선택지입니다.
+
+<p><img src="skills/public-cardnews/assets/handwritten-memo/images/01.png" alt="S07 손글씨 메모 표지" width="45%" /><img src="skills/public-cardnews/assets/handwritten-memo/images/02.png" alt="S07 손글씨 메모 본문" width="45%" /></p>
+
+- AI·뉴스 브리핑과 업무 요약에 적합합니다.
+- 내용을 줄여도 **무슨 소식인지 → 주요 내용 → 업무에서 확인할 점**을 보존합니다.
+- 같은 위계의 글자 크기와 충분한 줄간격을 유지하고, 첫 장을 참조해 후속 장을 생성합니다.
+- 공개 승인된 6장 디자인 시안입니다. 뉴스 사실 확인용 자료가 아니며, 재사용할 때 최신 원고·날짜·출처로 교체하세요.
+
+[전체 6장과 프롬프트](skills/public-cardnews/references/generated-samples.md#s07--텍스트-중심-손글씨-메모형) · [디자인 기준](skills/public-cardnews/references/handwritten-memo.md)
+
+> S07은 `main`에 추가되었습니다. 위 고정 베타 태그에는 포함되지 않으므로 이 디자인을 사용하려면 `git switch main` 후 `git pull --ff-only`로 업데이트하세요.
 
 ## 실제 배포 예제
 

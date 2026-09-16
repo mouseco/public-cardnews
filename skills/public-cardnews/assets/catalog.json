@@ -74,6 +74,17 @@
       "sha256": "a1c3cf6f721c9149ef115ee0a608aa0d826683e0441d0aae7adf6cd0e8db374a"
     },
     {
+      "id": "S07",
+      "kind": "generated",
+      "name": "텍스트 중심 손글씨 메모형",
+      "status": "reference",
+      "note": "공개 승인 6장 디자인 시안; 뉴스 사실 확인용이 아니며 재사용 시 최신 원고로 교체",
+      "image": "skills/public-cardnews/assets/handwritten-memo/images/01.png",
+      "prompt": "skills/public-cardnews/assets/handwritten-memo/prompts/01.md",
+      "edit_prompt": "skills/public-cardnews/assets/handwritten-memo/reuse.md",
+      "sha256": "9e46ca32bbfe7f671e0f841bee991447fe3488b28ccd47710f7cd8c342b47467"
+    },
+    {
       "id": "E01",
       "kind": "external",
       "name": "숫자로 보는 한국교육 - OECD 교육지표 2025",
